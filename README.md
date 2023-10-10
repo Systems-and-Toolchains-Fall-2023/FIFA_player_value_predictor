@@ -40,8 +40,8 @@
 | release_clause_eur            | string    | true     | Release clause value in Euros, if applicable.             | Should represent a number, or "None"                 |
 | player_tags                   | string    | true     | Tags associated with the player, separated by commas.     | None                                                 |
 | player_traits                 | string    | true     | Specific traits associated with the player, separated by commas. | None                                      |
-| pace to goalkeeping_speed     | various   | true     | These fields (from 38 to 72) are specific skill ratings for the player, usually out of 100, indicating their proficiency in various aspects of the game. | 1-100                   |
-| ls to gk                      | string    | true     | These fields (from 73 to 95) indicate the player's rating when positioned in various positions on the field. | Formatted as "XX+Y" (e.g., "65+2")                   |
+| pace to goalkeeping_speed     | various   | true     | Fields (from 38 to 72) that are specific skill ratings for the player, indicating their proficiency and skill in various aspects of FIFA. | 1-100                   |
+| ls to gk                      | string    | true     | Fields (from 73 to 95) that indicate the player's rating when positioned in various positions on the field. | Formatted as "XX+Y" (e.g., "65+2")                   |
 | player_face_url               | string    | true     | URL link to the player's face image.                      | Should be a valid URL                                |
 | club_logo_url                 | string    | true     | URL link to the club's logo.                              | Should be a valid URL                                |
 | club_flag_url                 | string    | true     | URL link to the club's flag or emblem.                    | Should be a valid URL                                |
