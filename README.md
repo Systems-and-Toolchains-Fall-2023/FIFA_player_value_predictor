@@ -115,3 +115,51 @@
 | nation_flag_url               | string    | true     |
 | year                          | integer   | true     |
 | unique_id                     | integer   | true     |
+
+### Feature Descriptions
+sofifa_id: Unique identifier for the player in the SoFIFA database.
+player_url: URL link to the player's profile on the SoFIFA website.
+short_name: Shortened version of the player's name.
+long_name: Full version of the player's name.
+player_positions: Positions the player can play in, often separated by commas.
+overall: Player's overall rating.
+potential: Player's potential rating, indicating their future performance capabilities.
+value_eur: Market value of the player in Euros.
+wage_eur: Player's weekly wage in Euros.
+age: Player's age.
+dob: Player's date of birth.
+height_cm: Player's height in centimeters.
+weight_kg: Player's weight in kilograms.
+club_team_id: Unique identifier for the player's club team.
+club_name: Name of the club the player belongs to.
+league_name: Name of the league in which the player's club competes.
+league_level: Level or tier of the league.
+club_position: Position the player usually occupies in the club.
+club_jersey_number: Player's jersey number in the club.
+club_loaned_from: Name of the club the player is loaned from, if applicable.
+club_joined: Date when the player joined the current club.
+club_contract_valid_until: Year until which the player's contract with the club is valid.
+nationality_id: Unique identifier for the player's nationality.
+nationality_name: Name of the player's nationality.
+nation_team_id: Unique identifier for the player's national team.
+nation_position: Position the player usually occupies in the national team.
+nation_jersey_number: Player's jersey number in the national team.
+preferred_foot: Player's preferred foot (Right or Left).
+weak_foot: Rating (usually out of 5) of the player's non-preferred foot skills.
+skill_moves: Rating (usually out of 5) indicating the player's skill moves capability.
+international_reputation: Rating (usually out of 5) of the player's international reputation.
+work_rate: Player's work rate, usually defined for both attacking and defending (e.g., "High/High").
+body_type: Categorical description of the player's body type.
+real_face: Indicates if the player has a real face scan in the game.
+release_clause_eur: Release clause value in Euros, if applicable.
+player_tags: Tags associated with the player, separated by commas.
+player_traits: Specific traits associated with the player, separated by commas.
+pace to goalkeeping_speed: These fields (from 38 to 72) are specific skill ratings for the player, usually out of 100, indicating their proficiency in various aspects of the game.
+ls to gk: These fields (from 73 to 95) indicate the player's rating when positioned in various positions on the field.
+player_face_url: URL link to the player's face image.
+club_logo_url: URL link to the club's logo.
+club_flag_url: URL link to the club's flag or emblem.
+nation_logo_url: URL link to the national team's logo.
+nation_flag_url: URL link to the national team's flag.
+year: Year of the dataset.
+unique_id: Unique identifier for each row in the dataset.
