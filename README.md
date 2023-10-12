@@ -4,7 +4,7 @@
 | Feature                | Data Type | Nullable | Description                                                 | Constraints                        |
 |-----------------------------|-----------|----------|-------------------------------------------------------------|-----------------------------------|
 | sofifa_id                   | integer   | true     | Unique identifier for the player in the SoFIFA database.    | > 0                               |
-| player_url                  | string    | true     | URL link to the player's profile on the SoFIFA website.     | None                              |
+| player_url                  | string    | true     | URL link to the player's profile on the SoFIFA website.     | Valid URL                              |
 | short_name                  | string    | true     | Shortened version of the player's name.                     | None                              |
 | long_name                   | string    | true     | Full version of the player's name.                          | None                              |
 | player_positions            | string    | true     | Positions the player can play in, separated by commas.      | None                              |
@@ -12,10 +12,10 @@
 | potential                   | integer   | true     | Player's potential rating.                                  | 1-100                             |
 | value_eur                   | double    | true     | Market value of the player in Euros.                        | >= 0                              |
 | wage_eur                    | double    | true     | Player's weekly wage in Euros.                              | >= 0                              |
-| age                         | integer   | true     | Player's age.                                               | 15-50 (approximately)             |
+| age                         | integer   | true     | Player's age.                                               | None            |
 | dob                         | date      | true     | Player's date of birth.                                     | Must be a past date               |
-| height_cm                   | integer   | true     | Player's height in centimeters.                             | 150-210                           |
-| weight_kg                   | integer   | true     | Player's weight in kilograms.                               | 50-100                            |
+| height_cm                   | integer   | true     | Player's height in centimeters.                             | None                         |
+| weight_kg                   | integer   | true     | Player's weight in kilograms.                               | None                           |
 | club_team_id                | double    | true     | Unique identifier for the player's club team.               | >= 0                              |
 | club_name                   | string    | true     | Name of the club the player belongs to.                     | None                              |
 | league_name                 | string    | true     | Name of the league in which the player's club competes.     | None                              |
@@ -42,11 +42,11 @@
 | player_traits                 | string    | true     | Specific traits associated with the player, separated by commas. | None                                      |
 | pace to goalkeeping_speed     | various   | true     | Fields (from 38 to 72) that are specific skill ratings for the player, indicating their proficiency and skill in various aspects of FIFA. | 1-100                   |
 | ls to gk                      | string    | true     | Fields (from 73 to 95) that indicate the player's rating when positioned in various positions on the field. | Formatted as "XX+Y" (e.g., "65+2")                   |
-| player_face_url               | string    | true     | URL link to the player's face image.                      | Should be a valid URL                                |
-| club_logo_url                 | string    | true     | URL link to the club's logo.                              | Should be a valid URL                                |
-| club_flag_url                 | string    | true     | URL link to the club's flag or emblem.                    | Should be a valid URL                                |
-| nation_logo_url               | string    | true     | URL link to the national team's logo.                     | Should be a valid URL                                |
-| nation_flag_url               | string    | true     | URL link to the national team's flag.                     | Should be a valid URL                                |
-| year                          | integer   | true     | Year of the dataset.                                      | > 0                                                  |
+| player_face_url               | string    | true     | URL link to the player's face image.                      | Valid URL                                |
+| club_logo_url                 | string    | true     | URL link to the club's logo.                              | Valid URL                                |
+| club_flag_url                 | string    | true     | URL link to the club's flag or emblem.                    | Valid URL                                |
+| nation_logo_url               | string    | true     | URL link to the national team's logo.                     | Valid URL                                |
+| nation_flag_url               | string    | true     | URL link to the national team's flag.                     | Valid URL                                |
+| year                          | integer   | true     | Year of the dataset.                                      | 2015-2022                                                  |
 | unique_id                     | long      | false    | Unique identifier for each row in the dataset.            | > 0 and must be unique                               |
 
