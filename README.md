@@ -1,6 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nyeWPUMW)
 # FIFA Player Prediction 
 
+## Video URL
+https://youtu.be/XjLyVFIcgsc
+
 ## Steps to Run Notebooks
 1. Make sure that the "fifa_dataset" folder is at the same directory level as the notebooks for tasks 1,2, and 3. Task 1 and Task 2 are in a seperate notebook due to being part of the same assignment. Task 3 is in its own notebook due to being its own assignment. To run each task, navigate to the respective notebook in your preferred IDE.
 2. Make sure the respective libraries and packages are downloaded via pip (or pip3 based on Python version) in order to run through the notebooks. These include PySpark, TensorFlow, PyTorch, Numpy, Pandas, and others (but mainly those 4). If any miscellaneous package errors arise, follow the traceback's instructions on downloading the required package to your Python environment.
