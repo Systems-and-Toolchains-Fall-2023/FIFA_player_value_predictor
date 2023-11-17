@@ -1,6 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nyeWPUMW)
 # FIFA Player Prediction 
 
+## Description
+This repository contains .ipynb files titled respectively after the task they were completed for, as well as two .py files for running task 3 on the cloud along with screenshots of running those files in the dataproc environment.
+
 ## Video URL
 https://youtu.be/XjLyVFIcgsc
 
